@@ -30,4 +30,12 @@ public class User {
     @LastModifiedDate
     private Date updatedDate;
 
+    public static User create(String nickname) {
+        User user = new User();
+        Date createDate = new Date();
+        user.setNickname(nickname);
+        user.setCreateDate(createDate);
+        user.setUpdatedDate(createDate);
+        return user;
+    }
 }

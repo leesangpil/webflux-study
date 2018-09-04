@@ -22,11 +22,14 @@ API에 관계없이 아래 사항을 지켜주셔야 합니다.
 |===
 | 환경 | domain
 
+| Local
+| `localhost:8080`
+
 | Dev
-| `dev.api.selective.me`
+| `...`
 
 | Real
-| `api.selective.me`
+| `...`
 |===
 
 
@@ -54,7 +57,7 @@ API에 관계없이 아래 사항을 지켜주셔야 합니다.
 | 실제 반환될 데이터
 |===
 
-[[hello]]
+[[index]]
 == Index API
 
 === Request
@@ -81,29 +84,134 @@ Response HTTP Example:
 
 include::{snippets}/index/http-response.adoc[]
 
-[[member]]
-== Member API
+[[user]]
+== User API
+``Create User``
 
 === Request
 
 CURL:
 
-include::{snippets}/readAll/curl-request.adoc[]
+include::{snippets}/createUser/curl-request.adoc[]
 
 Request Parameters:
 
-include::{snippets}/readAll/request-body.adoc[]
+include::{snippets}/createUser/request-body.adoc[]
 
 Request HTTP Example:
 
-include::{snippets}/readAll/http-request.adoc[]
+include::{snippets}/createUser/http-request.adoc[]
 
 === Response
 
 Response Fields:
 
-include::{snippets}/readAll/response-body.adoc[]
+include::{snippets}/createUser/response-body.adoc[]
 
 Response HTTP Example:
 
-include::{snippets}/readAll/http-response.adoc[]
+include::{snippets}/createUser/http-response.adoc[]
+
+``Get User``
+
+=== Request
+
+CURL:
+
+include::{snippets}/getUser/curl-request.adoc[]
+
+Request Parameters:
+
+include::{snippets}/getUser/request-body.adoc[]
+
+Request HTTP Example:
+
+include::{snippets}/getUser/http-request.adoc[]
+
+=== Response
+
+Response Fields:
+
+include::{snippets}/getUser/response-body.adoc[]
+
+Response HTTP Example:
+
+include::{snippets}/getUser/http-response.adoc[]
+
+``Get All Users``
+
+=== Request
+
+CURL:
+
+include::{snippets}/getAllUsers/curl-request.adoc[]
+
+Request Parameters:
+
+include::{snippets}/getAllUsers/request-body.adoc[]
+
+Request HTTP Example:
+
+include::{snippets}/getAllUsers/http-request.adoc[]
+
+=== Response
+
+Response Fields:
+
+include::{snippets}/getAllUsers/response-body.adoc[]
+
+Response HTTP Example:
+
+include::{snippets}/getAllUsers/http-response.adoc[]
+
+``Update Nickname``
+
+=== Request
+
+CURL:
+
+include::{snippets}/updateNickname/curl-request.adoc[]
+
+Request Parameters:
+
+include::{snippets}/updateNickname/request-body.adoc[]
+
+Request HTTP Example:
+
+include::{snippets}/updateNickname/http-request.adoc[]
+
+=== Response
+
+Response Fields:
+
+include::{snippets}/updateNickname/response-body.adoc[]
+
+Response HTTP Example:
+
+include::{snippets}/updateNickname/http-response.adoc[]
+
+``Delete User``
+
+=== Request
+
+CURL:
+
+include::{snippets}/deleteUser/curl-request.adoc[]
+
+Request Parameters:
+
+include::{snippets}/deleteUser/request-body.adoc[]
+
+Request HTTP Example:
+
+include::{snippets}/deleteUser/http-request.adoc[]
+
+=== Response
+
+Response Fields:
+
+include::{snippets}/deleteUser/response-body.adoc[]
+
+Response HTTP Example:
+
+include::{snippets}/deleteUser/http-response.adoc[]
