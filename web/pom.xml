@@ -12,6 +12,7 @@
     <modelVersion>4.0.0</modelVersion>
     <name>web</name>
     <description>Demo project for Spring Boot</description>
+    <packaging>jar</packaging>
 
     <dependencies>
         <dependency>
