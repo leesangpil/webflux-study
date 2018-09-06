@@ -1,3 +1,7 @@
+mvnw
+mvnw.cmd
+.mvn
+
 /target/
 web/target/
 api/target/
