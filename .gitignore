@@ -1,4 +1,10 @@
+mvnw
+mvnw.cmd
+/.mvn
+
 /target/
+web/target/
+api/target/
 .mvn/wrapper/maven-wrapper.jar
 
 ### STS ###
