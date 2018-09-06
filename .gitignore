@@ -1,6 +1,6 @@
 mvnw
 mvnw.cmd
-.mvn
+/.mvn
 
 /target/
 web/target/
