@@ -215,3 +215,135 @@ include::{snippets}/deleteUser/response-body.adoc[]
 Response HTTP Example:
 
 include::{snippets}/deleteUser/http-response.adoc[]
+
+[[post]]
+== Post API
+``Create Post``
+
+=== Request
+
+CURL:
+
+include::{snippets}/createPost/curl-request.adoc[]
+
+Request Parameters:
+
+include::{snippets}/createPost/request-body.adoc[]
+
+Request HTTP Example:
+
+include::{snippets}/createPost/http-request.adoc[]
+
+=== Response
+
+Response Fields:
+
+include::{snippets}/createPost/response-body.adoc[]
+
+Response HTTP Example:
+
+include::{snippets}/createPost/http-response.adoc[]
+
+``Update Post``
+
+=== Request
+
+CURL:
+
+include::{snippets}/updatePost/curl-request.adoc[]
+
+Request Parameters:
+
+include::{snippets}/updatePost/request-body.adoc[]
+
+Request HTTP Example:
+
+include::{snippets}/updatePost/http-request.adoc[]
+
+=== Response
+
+Response Fields:
+
+include::{snippets}/updatePost/response-body.adoc[]
+
+Response HTTP Example:
+
+include::{snippets}/updatePost/http-response.adoc[]
+
+``getAllPost``
+
+=== Request
+
+CURL:
+
+include::{snippets}/getAllPost/curl-request.adoc[]
+
+Request Parameters:
+
+include::{snippets}/getAllPost/request-body.adoc[]
+
+Request HTTP Example:
+
+include::{snippets}/getAllPost/http-request.adoc[]
+
+=== Response
+
+Response Fields:
+
+include::{snippets}/getAllPost/response-body.adoc[]
+
+Response HTTP Example:
+
+include::{snippets}/getAllPost/http-response.adoc[]
+
+``getFindByCreator``
+
+=== Request
+
+CURL:
+
+include::{snippets}/getFindByCreator/curl-request.adoc[]
+
+Request Parameters:
+
+include::{snippets}/getFindByCreator/request-body.adoc[]
+
+Request HTTP Example:
+
+include::{snippets}/getFindByCreator/http-request.adoc[]
+
+=== Response
+
+Response Fields:
+
+include::{snippets}/getFindByCreator/response-body.adoc[]
+
+Response HTTP Example:
+
+include::{snippets}/getFindByCreator/http-response.adoc[]
+
+``getFindByTitleLike``
+
+=== Request
+
+CURL:
+
+include::{snippets}/getFindByTitleLike/curl-request.adoc[]
+
+Request Parameters:
+
+include::{snippets}/getFindByTitleLike/request-body.adoc[]
+
+Request HTTP Example:
+
+include::{snippets}/getFindByTitleLike/http-request.adoc[]
+
+=== Response
+
+Response Fields:
+
+include::{snippets}/getFindByTitleLike/response-body.adoc[]
+
+Response HTTP Example:
+
+include::{snippets}/getFindByTitleLike/http-response.adoc[]
